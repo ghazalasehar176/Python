@@ -1,0 +1,15 @@
+from time import strftime → time module se current time & date import karte hain.
+
+root = tk.Tk() → ye hamara main window hai jisme elements show hote hain.
+
+root.title("Digital Clock") → window ke upar title show karega.
+
+Function time():
+
+strftime() → apni pasand ke format me time & date dikhata hai.
+
+label.after(1000, time) → har 1 second baad function dobara call hota hai → clock update hota rehta hai.
+
+label → text, font, color set karta hai (yaha black bg + lime fg).
+
+root.mainloop() → window ko run aur display karne ke liye.
