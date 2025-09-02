@@ -48,3 +48,30 @@ print(str8.find(" "))
 str10 = "i'm from studying python"
 print(str10.count("y"))
 
+""" #write a program to input user first name and  print its length
+user_int = input("Enter user first name: ")
+print("the lenght is :",len(user_int))
+ """
+
+
+""" #WAP to find the gretest of 3 number entered by the user
+a = int(input("Enter number a: "))
+b = int(input("Enter number b: "))
+c = int(input("Enter number c: "))
+
+if(a >= b and a >= c):
+    print("greatest number is A")
+elif(b >= c):
+    print("greatest number is B")
+else:
+    print("greatest number is C") """
+
+
+
+""" #WAP a program and check number is multiple of 7 or not.
+num = int(input("Enter nummebr as you want: "))
+
+if(num % 7 == 0):
+    print("multiple of ",num)
+else:
+    print("not a multiple of", num) """
